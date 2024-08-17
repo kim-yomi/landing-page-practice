@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #1F2937;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.header-links{
+    display: flex;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+}
+
+.first-content{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background: #1F2937;
+    padding-top: 205px;
+    padding-bottom: 206px;
+    flex-shrink: 0;
+}
+
+.placeholder{
+    background-color: lightgray;
+    padding: 150px;
+    text-align: center;
+    width: 300px;
+    flex-shrink: 3;
+}
+
+.header-button{
+    color:white;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.second-header{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.square{
+    border-radius: 15px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 130px;
+    height: 120px;
+}
+
+.second-content{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 220px;
+}
+
+.second-content-elements{
+    max-width: 200px;
+}
+
+.quote-content{
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    padding-top: 200px;
+    font-size: 40px;
+}
+
+.quote-signature{
+    display: flex;
+    justify-content: center;
+    padding-left: 510px;
+    font-size: 30px;
+    background: lightgray;
+    padding-bottom: 200px;
+}
+
+.container{
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882F6;
+    color: white;
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+}
+
+.notif-elements{
+    font-size: 20px;
+}
+
+.signup-button{
+    border-color: white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    font: 20px;
+}
+
+
